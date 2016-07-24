@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -6,6 +6,13 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="MiRaisedButton" parent="Theme.AppCompat.Light">
+        <item name="android:colorButtonNormal" tools:targetApi="lollipop">@color/colorAccent</item>
+        <item name="android:colorControlHighlight" tools:targetApi="lollipop">>@color/colorBlanco</item>
+        <item name="android:textColor">@color/colorTexto</item>
     </style>
 
 </resources>
