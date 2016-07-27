@@ -2,4 +2,14 @@
     <string name="app_name">Petagram</string>
     <string name="texto_boton">Click</string>
     <string name="texto_titulo">Hello World!!</string>
+    <string name="texto_toast">Favorito</string>
+    <string name="texto_accion">Accion</string>
+    <string-array name="planetas">
+        <item>Mercurio</item>
+        <item>Tierra</item>
+        <item>Marte</item>
+        <item>Jupiter</item>
+    </string-array>
+    <string name="tvcardtitle">Acá se incluye Material.</string>
+    <string name="tvcarddescription">Marzo.</string>
 </resources>
